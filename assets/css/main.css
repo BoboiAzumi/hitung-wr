@@ -1,0 +1,164 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap";
+.font-nunito {
+  font-family: Nunito, sans-serif;
+  background-color: #c2003a;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 15px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  quotes: none;
+  text-decoration: none !important;
+  outline: none;
+  border: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  position: relative;
+  background-color: #32323e;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  color: #fff;
+  margin: 0 auto;
+}
+i {
+  display: inline-flex;
+}
+a {
+  color: #fff;
+}
+a,
+button {
+  cursor: pointer;
+}
+p,
+a,
+div,
+span {
+  font-size: 14px;
+}
+input,
+button {
+  font-size: 14px !important;
+}
+label {
+  font-size: 13px !important;
+}
+img {
+  object-fit: cover;
+}
+@media (max-width: 768px) {
+  p,
+  a,
+  div,
+  span {
+    font-size: 13px;
+  }
+  input,
+  button {
+    font-size: 13px !important;
+  }
+  label {
+    font-size: 11px !important;
+  }
+}
+@media (max-width: 300px) {
+  body {
+    display: none;
+  }
+}
+.btn {
+  transition: 0.225s;
+  padding: 0.475rem 3rem;
+  border-radius: 5px;
+}
+.btn-primary {
+  background-color: #491beb;
+  border-color: #491beb !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #5d37e8;
+}
+.btn-primary:focus {
+  box-shadow: none !important;
+}
+.card {
+  background-color: #272730 !important;
+  padding: 25px;
+  padding-bottom: 30px;
+  border: none;
+  border-radius: 10px;
+}
+@media (max-width: 576px) {
+  .card {
+    padding: 20px;
+    padding-bottom: 25px;
+  }
+}
+.form-control {
+  background-color: transparent !important;
+  color: #fff !important;
+  border-radius: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.bg-primary {
+  background-color: #118eed !important;
+}
+.sosmed {
+  margin-top: 15px;
+}
+.logo-img {
+  width: 150px;
+}
+.animation {
+  animation: animation-msg 1s alternate;
+}
+.welcomeMsg p,
+.welcomeMsg a {
+  font-size: 11px;
+}
+.welcomeMsg a {
+  color: #fff;
+  text-decoration: underline !important;
+  font-weight: 600 !important;
+}
+@keyframes animation-msg {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 576px) {
+  .welcomeMsg {
+    background-color: transparent !important;
+    border-bottom: 1px solid gray;
+    color: #fff !important;
+  }
+  .welcomeMsg p,
+  .welcomeMsg a {
+    font-size: 12px;
+  }
+  .welcomeMsg a {
+    color: #fff !important;
+  }
+} /*# sourceMappingURL=main.css.map */
